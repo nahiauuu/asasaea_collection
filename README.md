@@ -1,6 +1,6 @@
 # ASASAEA COLLECTION
 
-**Live site → [formacio.bq.ub.edu/~u321815](https://formacio.bq.ub.edu/~u321815/)**
+**Live site → [ASASAEA COLLECTION](https://formacio.bq.ub.edu/~u321815/)**
 
 A quite personal project: a music-related interactive card collection webpage; with pack-opening mechanics and an interactive album. In there, you can also find some other projects made by myself related to database management and web development
 
