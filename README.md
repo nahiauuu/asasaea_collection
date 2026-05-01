@@ -1,15 +1,13 @@
 # ASASAEA COLLECTION
 
 I proudly present to you my most personal project up to date:
-Asasaea Collection is a music-related interactive card collection webpage; with pack-opening mechanics and an interactive album. In there, you can also find some other projects made by myself related to database management and web development
+Asasaea Collection is a **music-related interactive card collection** webpage; with pack-opening mechanics and an interactive album. In there, you can also find some other projects made by myself related to database management and web development
 
 **Go to the WebPage → [ASASAEA COLLECTION](https://formacio.bq.ub.edu/~u321815/)**
 
 ---
 
-## What's inside?
-
-### The main thing: A Card Collection (`index.html`)
+## The main thing: A Card Collection (`index.html`)
 A self-contained single-file web app where you collect music cards — one per song or artist — organised into four album categories:
 
 | Album Category | Colour |
@@ -26,34 +24,34 @@ A self-contained single-file web app where you collect music cards — one per s
 - **Friend codes** → enter a card-code shared by a friend to add specific cards to your own collection (simulating card exchanges with friends in real life)
 - **Contact footer** → quick links to my other internet sites; you can also email me in this space
 
-### Other projects:
+
+## Other projects:
 Some other unrelated projects are also showcased, regarding database/bioinformatics exercises, webside development & APIs.
 
-#### FlowCyto Predictor APP
+
+### 1. FlowCyto Predictor APP
 - Live site → [FlowCyto APP](https://formacio.bq.ub.edu/flowcyto/)
 - Original GitHub repository → [flowcyto_predictor](https://github.com/PauVillen/flowcyto_predictor.git)
 
 FlowCyto is a web application developed using Flask (Python) and MySQL, that predicts the most likely blood-cell type based on a list of input genes: it compares the input gene list with a database of known cell type markers and calculates a prediction score for each cell type. Finally, it returns a ranking according to their scores.
 
+### 2. Clinical Trials Database design
+A data model schema design for a hospital clinical trials support service. This project was carried out using MySQL.
 
-#### 3D-VUV: A Protein Binding-Site Predictor
-- Original GitHub repository → [pred_binding-site](../pred_binding-site)
+
+### 3. 3D-VUV: A Protein Binding-Site Predictor
+- Original GitHub repository → [pred_binding-site](https://github.com/nahiauuu/pred_binding-site.git)
 
 A standalone program based on both geometric and machine learning algorithms that analyses the 3D structure of an inputed protein through its PDB file and predicts its potential ligand binding sites.
 
-
-#### ClustalOmega Alignment APP (`ClustalOmegaAPP.html` + `clustal_api.php`)
+### 4. ClustalOmega Alignment APP (`ClustalOmegaAPP.html` + `clustal_api.php`)
 This is a useful bioinformatics tool for carrying out multiple sequence alignments. It detects various input formats, and the output format can be customizable.
 
-Which is the pipeline?
+Pipeline:
 - Fetch protein sequences directly from **UniProt** or **PDB** by accession ID, or paste raw FASTA file
 - Runs alignment via **ClustalOmega** — locally if installed on the server, or falls back automatically to the **EBI public API**
 - Output format options: Clustal, FASTA, MSF, PHYLIP, SELEX, Stockholm, Vienna
 - Colour-coded alignment viewer with conservation scoring
-
-
-#### Clinical Trials Database design
-A data model schema design for a hospital clinical trials support service. This project was carried out using MySQL.
 
 ---
 
