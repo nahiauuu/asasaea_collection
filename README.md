@@ -1,8 +1,9 @@
 # ASASAEA COLLECTION
 
-**Live site → [ASASAEA COLLECTION](https://formacio.bq.ub.edu/~u321815/)**
+I proudly present to you my most personal project up to date:
+Asasaea Collection is a music-related interactive card collection webpage; with pack-opening mechanics and an interactive album. In there, you can also find some other projects made by myself related to database management and web development
 
-A quite personal project: a music-related interactive card collection webpage; with pack-opening mechanics and an interactive album. In there, you can also find some other projects made by myself related to database management and web development
+**Go to the WebPage → [ASASAEA COLLECTION](https://formacio.bq.ub.edu/~u321815/)**
 
 ---
 
@@ -21,7 +22,7 @@ A self-contained single-file web app where you collect music cards — one per s
 **Features:**
 - **Pack opening** → swipe to tear open a pack and reveal 3 random cards (with animation and all)
 - **Album browser** → tab-based grid showing found and missing cards; you can click any found card to see its details
-- **Favourites** → heart-button per card (on the upper-right corner) that you can click and its saved in your `localStorage`; this way you can choose your own favourite cards from the album!!
+- **Favourites** → heart-button per card (on the upper-right corner) that you can click and its saved in your local storage; this way you can choose your own favourite cards from the album!!
 - **Friend codes** → enter a card-code shared by a friend to add specific cards to your own collection (simulating card exchanges with friends in real life)
 - **Contact footer** → quick links to my other internet sites; you can also email me in this space
 
@@ -49,6 +50,10 @@ Which is the pipeline?
 - Runs alignment via **ClustalOmega** — locally if installed on the server, or falls back automatically to the **EBI public API**
 - Output format options: Clustal, FASTA, MSF, PHYLIP, SELEX, Stockholm, Vienna
 - Colour-coded alignment viewer with conservation scoring
+
+
+#### Clinical Trials Database design
+A data model schema design for a hospital clinical trials support service. This project was carried out using MySQL.
 
 ---
 
@@ -84,11 +89,14 @@ Then visit `http://localhost:8000/ClustalOmegaAPP.html`.
 
 ## Tech
 
-The main site and ClustalOmega frontend are built with **HTML**, **CSS**, and **JSON**. The fonts are from Google Fonts (Playfair Display, Space Mono, Nunito, Bebas Neue).
-Backend of ClustalOmega is in **PHP** with cURL.
+Main website and ClustalOmega app's frontend were built using **HTML**, **CSS**, and **JSON**. The fonts are from Google Fonts (Playfair Display, Space Mono, Nunito, Bebas Neue).
+
+Backend of ClustalOmega is in **PHP**.
+
 FlowCyto and 3D-VUV Predictors are built with **PYTHON** and **MySQL**.
 
 ---
 
-*Webpage made by me, Nahia:)*
-**FlowCyto and 3D-VUV are collaborations, made with other friends (look them up in the corresponding repos)*
+**FlowCyto and 3D-VUV are collaborative projects, made with friends (they can be found in the corresponding repos of those projects)*
+
+*Main Webpage made by me, Nahia :)*
